@@ -30,6 +30,7 @@ Primitives are variables to hold data. Java provides the following primitives (y
 - double --> real numbers, infinity, NaN
 - boolean
 - char
+- array: hold elements of a type and allows you to define a grouping of primitives or objects (references). Each elemet has index starting from 0. Array in java is an object itself. 
 
 Note:
 - the compiler assumes that the literals are integer values. To declare a long literal use `long myLong = 23456L;`
