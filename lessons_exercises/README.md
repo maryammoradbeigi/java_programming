@@ -54,6 +54,6 @@ Primitives and methods share the same naming convention which is Low Camel Case 
 - Logical operators: && (and-ing) || (or-ing) ! (not)
 - Logical and Bitwise operators: & | ~ ^ << >> >>>
   - ^ is called `exclusive or`
-![Screenshot 2024-03-10 at 21.45.41.png](..%2F..%2FDesktop%2FScreenshot%202024-03-10%20at%2021.45.41.png)
+![logical_operators.png](images%2Flogical_operators.png)
 
 - The `dot` operator is used to access attributes and methods withing a specific instance of a class.
