@@ -41,9 +41,10 @@ You can declare your primitive anywhere in your code but their placement affects
 Primitives and methods share the same naming convention which is Low Camel Case (the first letter of the first world is lower case and the rest of first letters are upper case).
 
 # Java Operators:
+Note: To see java operator precedence, please check [this](https://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html).
 - Assignment operator: =
 - Mathematical operators: + - * / %
-- Unary increment or decrement: ++ -- 
+- Unary increment or decrement: ++ -- (+, - is also unary operators for sign)
   - Java has prefix and postfix increment and decrement operators:
     - prefix increment (++i) increments i by 1 and then uses it in the expression
     - prefix decrement (--i) decrements i by 1 and then uses it in the expression
@@ -54,6 +55,11 @@ Primitives and methods share the same naming convention which is Low Camel Case 
 - Logical operators: && (and-ing) || (or-ing) ! (not)
 - Logical and Bitwise operators: & | ~ ^ << >> >>>
   - ^ is called `exclusive or`
+  - ~ is called `bitwise complement`
+  - << is called `bitwise shfit left`
+  - the >> is called `bitwise shfit right, sign extension`
+  - the >>> is called `bitwise shfit right, zero extension`
+
 ![logical_operators.png](images%2Flogical_operators.png)
 
 - The `dot` operator is used to access attributes and methods withing a specific instance of a class.
