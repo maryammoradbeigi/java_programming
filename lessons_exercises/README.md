@@ -40,3 +40,20 @@ Note:
 You can declare your primitive anywhere in your code but their placement affects their visibility. For example, if you place the primitive inside a code block, it will be visible only inside that block from the point of declaration onwards.
 Primitives and methods share the same naming convention which is Low Camel Case (the first letter of the first world is lower case and the rest of first letters are upper case).
 
+# Java Operators:
+- Assignment operator: =
+- Mathematical operators: + - * / %
+- Unary increment or decrement: ++ -- 
+  - Java has prefix and postfix increment and decrement operators:
+    - prefix increment (++i) increments i by 1 and then uses it in the expression
+    - prefix decrement (--i) decrements i by 1 and then uses it in the expression
+    - postfix increment (i++) uses i in the expression and then increments it by 1
+    - postfix decrement (i--) uses i in the expression and then decrements it by 1
+- Relational operators: < == > <= >= !=
+  - These operators result in a boolean value which is normally used in branching or looping statements.
+- Logical operators: && (and-ing) || (or-ing) ! (not)
+- Logical and Bitwise operators: & | ~ ^ << >> >>>
+  - ^ is called `exclusive or`
+![Screenshot 2024-03-10 at 21.45.41.png](..%2F..%2FDesktop%2FScreenshot%202024-03-10%20at%2021.45.41.png)
+
+- The `dot` operator is used to access attributes and methods withing a specific instance of a class.
