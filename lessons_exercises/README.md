@@ -63,3 +63,32 @@ Note: To see java operator precedence, please check [this](https://www.cs.bilken
 ![logical_operators.png](images%2Flogical_operators.png)
 
 - The `dot` operator is used to access attributes and methods withing a specific instance of a class.
+
+# Branching
+The `if` statement works with relational operators to execute a block of code only if some condition is true. You can also set up a block of code that will execute only when the comparison is false, i.e. 1else1 statement.
+- Both `if` and `else` code block can be a set of statements inside curly braces or a single statement.
+- If the code block consist of one statement only, you can drop the curly braces but the best practice is to always use them.
+
+**switch statement**: If you have several conditions for the variable, it is easier to use `switch` statement than `if` statement:
+Let's imagin that we have a primative baned `wattage` and we wanna take different actions based on the values of it:
+```
+swith ( wattage ) {
+  case 40:
+    proce = 1,.20;
+    break;
+  case 60:
+    proce = 1,.30;
+    break;
+  case 100: //delibrate 'fall through' to repeat the code for different case values
+  case 150:
+    proce = 1,.15;
+    break;
+  default:
+    price = 0;
+}
+```
+- the moment that the case meets, the rest of the code will be executed. Let's assume that the wattage = 60. If we did not have break, from case 60 all the codes will be executed until the end. That is why we need the break to stop where we want to.
+
+**Ternary expressions** produce a value based on the truth of the expression
+Example: int y = ( x > 7 ) ?  2 : 5; is translated to: if x is greater than 7, y will be set to 2, otherwise y will be set to g.
+
